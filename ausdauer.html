@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ausdauer – Hybrid Athlete Hub</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="index.html">Hybrid Athlete Hub</a>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="navLinks">Menü</button>
+      <div id="navLinks" class="nav__links">
+        <a class="nav__link" href="index.html">Home</a>
+        <a class="nav__link" href="kraft.html">Kraft</a>
+        <a class="nav__link is-active" href="ausdauer.html">Ausdauer</a>
+        <a class="nav__link" href="ernaehrung.html">Ernährung</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Ausdauertraining</h1>
+    <p>Pläne, Laufzonen und ein kleiner Rechner.</p>
+
+    <section class="card">
+      <h2>Maximalpuls-Rechner</h2>
+      <form id="hrForm" class="form">
+        <label>
+          Alter
+          <input id="ageInput" type="number" min="10" max="90" required />
+        </label>
+        <button class="btn" type="submit">Berechnen</button>
+      </form>
+      <p id="hrResult" class="result"></p>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h2>5 km</h2>
+        <p>Kurz, intensiv, perfekt für Speed.</p>
+      </article>
+      <article class="card">
+        <h2>Halbmarathon</h2>
+        <p>Ausdauer + Tempo: der Klassiker.</p>
+      </article>
+      <article class="card">
+        <h2>Marathon</h2>
+        <p>Langfristig, viel Grundlagenausdauer.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Hybrid Athlete Hub • Schulprojekt</p>
+  </footer>
+</body>
+</html>
