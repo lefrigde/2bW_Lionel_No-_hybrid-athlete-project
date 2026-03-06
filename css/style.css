@@ -194,3 +194,9 @@ body{
 .plan-table tr:nth-child(even) {
   background: #f8fafc;
 }
+.form select {
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  width: 180px;
+}
