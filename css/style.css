@@ -172,3 +172,25 @@ body{
   }
   .nav__links.is-open{ display:flex; }
 }
+.plan-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-size: 0.95rem;
+}
+
+.plan-table th,
+.plan-table td {
+  border: 1px solid var(--border);
+  padding: 8px;
+  text-align: left;
+}
+
+.plan-table th {
+  background: #f1f5f9;
+}
+
+.plan-table tr:nth-child(even) {
+  background: #f8fafc;
+}
