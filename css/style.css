@@ -78,7 +78,7 @@ body{
 .hero{
   background:
   linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-  url("wald.jpg");
+  url("wald.png");
  
   background-size:cover;
   background-position:center;
