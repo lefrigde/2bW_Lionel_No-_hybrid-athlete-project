@@ -75,9 +75,14 @@ body{
   padding:24px 16px 56px;
 }
 
+}
 .hero{
-  background:linear-gradient(135deg, rgba(11,28,45,1), rgba(11,28,45,.85));
-  color:#fff;
+  background:
+  linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+  url("wald.jpg");
+
+  background-size:cover;
+  background-position:center;
   border-radius:18px;
   padding:28px 20px;
   margin:10px 0 22px;
