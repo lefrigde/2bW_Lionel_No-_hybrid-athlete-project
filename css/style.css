@@ -1,6 +1,6 @@
 :root{
   --bg:#556B2F;
-  --accent:#3f5f1e;
+  --accent:#3f5f1e; /* dunkles Olivgrün für Buttons */
   --text:#0f172a;
   --muted:#475569;
   --card:#ffffff;
@@ -94,12 +94,25 @@ body{
   background:
   linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
   url("wald.png");
+
   background-size:cover;
   background-position:center;
+
   border-radius:18px;
-  padding:28px 20px;
+  padding:40px 30px;
   margin:10px 0 22px;
   min-height:300px;
+
+  color:white;
+}
+
+/* Text im Banner weiss */
+
+.hero h1{
+  color:white;
+}
+
+.hero p{
   color:white;
 }
 
@@ -124,9 +137,8 @@ body{
   font-weight:600;
 }
 
-.btn--secondary{
-  background:rgba(255,255,255,.12);
-  border:1px solid rgba(255,255,255,.25);
+.btn:hover{
+  background:#4d6f25;
 }
 
 /* GRID */
@@ -261,6 +273,4 @@ body{
   .nav__links.is-open{
     display:flex;
   }
-
 }
- 
